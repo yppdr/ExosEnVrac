@@ -12,7 +12,19 @@ package com.beweb.lunel.programmation.exosEnVrac.algo;
 public class Exercice4 {
     
     public static void launch(){
-        System.out.println("Exo 4 : Que dit-on à un poisson qui parle trop fort ? Baisse d’un thon !");
+        
+        boolean flag = true;
+        int var = 0;
+        
+        if (flag) {
+            --var;
+        }else{
+            ++var;
+        }
+        flag = !flag;
+        
+        System.out.println("Exo 4 : Que dit-on à un poisson qui parle trop fort ? Baisse d’un thon !" + var);
+        
     }    
     
 }
