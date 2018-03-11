@@ -13,17 +13,30 @@ public class Exercice4 {
     
     public static void launch(){
         
-        boolean flag = true;
+        // Ne peut pas ce lancer car la variable flag n'est pas initialisé.
+        
+        boolean flag;
         int var = 0;
         
-        if (flag) {
-            --var;
-        }else{
-            ++var;
+        if(!flag)
+        {
+            var += 1;
+        }
+        else if(flag)
+        {
+            var -= 1;
         }
         flag = !flag;
+        if(flag)
+        {
+            var += 1;
+        }
+        else if(!flag)
+        {
+            var -= 1;
+        }
         
-        System.out.println("Exo 4 : Que dit-on à un poisson qui parle trop fort ? Baisse d’un thon !" + var);
+        System.out.println("Exo 4 : Que dit-on à un poisson qui parle trop fort ? Baisse d’un thon ! ");
         
     }    
     
