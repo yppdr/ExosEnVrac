@@ -17,7 +17,7 @@ public class Exercice4 {
         
         boolean flag;
         int var = 0;
-        
+       /** Commenter pour ne pas que netbeans me gueule dessus
         if(!flag)
         {
             var += 1;
@@ -35,7 +35,7 @@ public class Exercice4 {
         {
             var -= 1;
         }
-        
+        **/ 
         System.out.println("Exo 4 : Que dit-on à un poisson qui parle trop fort ? Baisse d’un thon ! ");
         
     }    

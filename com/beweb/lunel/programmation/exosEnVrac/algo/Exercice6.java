@@ -12,12 +12,10 @@ package com.beweb.lunel.programmation.exosEnVrac.algo;
 public class Exercice6 {
      public static void launch(){
         
-        boolean[] tab = new boolean[10];  
+        boolean[] tab = new boolean[10];
         
-        while(tab.length){
-            
-        }
-         
+        // A faire au calme
+        
         System.out.println("Exo 6 : Un geek ne descend pas du métro. Il libère la RAM ");
     }
 }

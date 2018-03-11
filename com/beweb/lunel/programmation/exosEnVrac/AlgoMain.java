@@ -10,6 +10,8 @@ import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice2;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice3;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice5;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice6;
+import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice7;
+import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice8;
 
 /**
  *
@@ -28,6 +30,8 @@ public class AlgoMain {
        //Exercice4.launch(); // execution de l'exercice 4
        Exercice5.launch(); // execution de l'exercice 5
        Exercice6.launch(); // execution de l'exercice 6
+       Exercice7.launch(); // execution de l'exercice 7
+       Exercice8.launch(); // execution de l'exercice 8
     }
     
 }
