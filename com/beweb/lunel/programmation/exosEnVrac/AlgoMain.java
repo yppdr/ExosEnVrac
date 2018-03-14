@@ -9,6 +9,9 @@ package com.beweb.lunel.programmation.exosEnVrac;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice1;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice10;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice11;
+import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice12;
+import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice13;
+import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice14;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice2;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice3;
 import com.beweb.lunel.programmation.exosEnVrac.algo.Exercice5;
@@ -38,6 +41,9 @@ public class AlgoMain {
        Exercice8.launch(); // execution de l'exercice 8
        Exercice10.launch(); // execution de l'exercice 10
        Exercice11.launch(); // execution de l'exercice 11
+       Exercice12.launch(); // execution de l'exercice 12
+       Exercice13.launch(); // execution de l'exercice 13
+       Exercice14.launch(); // execution de l'exercice 14
     }
     
 }
